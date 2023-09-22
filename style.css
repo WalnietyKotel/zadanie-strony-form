@@ -1,0 +1,124 @@
+body {
+  background-color: grey;
+}
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+h1 {
+  flex-basis: 70%;
+  text-align: center;
+}
+
+header > nav {
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header > li {
+  list-style: none;
+  background-color: rgb(206, 199, 199);
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+
+  color: gray;
+}
+a {
+  padding: 1rem;
+  display: block;
+  border-radius: 15px;
+  width: 5vw;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  background-color: grey;
+}
+
+#pierwszya {
+  padding: 1rem;
+  display: block;
+  border-radius: 15px;
+  width: 5vw;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  background-color: rgb(153, 150, 150);
+}
+#pierwszy {
+  list-style: none;
+  display: flex;
+}
+
+#drugi {
+  background-color: rgb(78, 76, 76);
+  color: wheat;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 70%;
+  align-items: center;
+  background-color: white;
+  border-right: 1px solid gray;
+}
+
+table {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#to {
+  background-color: darkgrey;
+}
+
+#glow {
+  background-color: rgb(209, 192, 192);
+}
+aside {
+  display: flex;
+  flex-basis: 29.9%;
+  background-color: white;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+#drugiw {
+  list-style: none;
+}
+
+aside > a {
+  margin-bottom: 1rem;
+  background-color: rgb(53, 51, 51);
+}
+section {
+  background-color: white;
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid gray;
+}
+footer {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid gray;
+}
